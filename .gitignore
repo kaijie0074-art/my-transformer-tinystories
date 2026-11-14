@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+artifacts/
+runs/
+.DS_Store
+checkpoints/
+experiments/inference-final.json
+experiments/inference-preflight.json

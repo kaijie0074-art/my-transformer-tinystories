@@ -1,0 +1,6 @@
+mlx==0.29.3
+mlx-metal==0.29.3
+numpy==2.0.2
+tokenizers==0.22.2
+datasets==4.5.0
+socksio==1.0.0

@@ -1,0 +1,32 @@
+{
+  "vocab_size": 10000,
+  "dataset_revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+  "dtype": "<u2",
+  "tokenizer_version": "0.22.2",
+  "source": {
+    "type": "huggingface",
+    "dataset": "roneneldan/TinyStories",
+    "url": "https://huggingface.co/datasets/roneneldan/TinyStories",
+    "license": "cdla-sharing-1.0"
+  },
+  "train": {
+    "stories": 2119719,
+    "tokens": 467155445,
+    "sha256": "98c04f460032e2567c3c3a914515bfeed54f3ef9f01f80e0caecbaecbc7b87ba"
+  },
+  "validation": {
+    "stories": 15389,
+    "tokens": 3144739,
+    "sha256": "b2e5305ad43dee7dee1e98bbfb8d3597fed50622f9b296944043e58340202f91"
+  },
+  "validation_filter": {
+    "method": "exact raw text equality",
+    "original_validation_stories": 21990,
+    "removed_validation_stories": 6601,
+    "remaining_validation_stories": 15389,
+    "matching_train_stories": 6601,
+    "distinct_shared_stories": 6601,
+    "remaining_distinct_validation_stories": 15389,
+    "near_duplicates_checked": false
+  }
+}
